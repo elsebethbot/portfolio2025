@@ -1,7 +1,12 @@
 ---
+import Case from "../components/Case.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-  <h1>mine projekter</h1>
+  <h1 class="text-center text-amber-100">mine projekter</h1>
+  <div class="inline-block">
+    <Case img="/billeder/roserGul.png" title="første case" />
+    <Case img="/billeder/roser.png" title="anden case" />
+  </div>
 </Layout>
