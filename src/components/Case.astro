@@ -2,8 +2,8 @@
 const { img, title } = Astro.props;
 ---
 
-<div class="w-60">
-  <img src={img} />
+<div>
+  <img class="object-cover h-70 w-full hover:invert rounded-full" src={img} />
 </div>
 <!-- <h1 class="p-4 text-blue-700 bg-amber-100 blur-md hover:blur-none duration-500">
   {title}
