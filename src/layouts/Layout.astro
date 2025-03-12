@@ -13,8 +13,12 @@ import Header from "../components/Header.astro";
     <title>elsebeths blog</title>
   </head>
   <body>
-    <Header />
-    <slot />
+    <div class="fixed top-0 right-0 w-100">
+      <Header />
+    </div>
+    <div class="mr-100 bg-[#c9becb]">
+      <slot />
+    </div>
   </body>
 </html>
 

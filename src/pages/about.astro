@@ -3,8 +3,13 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-  <h1 class="text-center text-lime-300 p-40">om mig</h1>
-  <div class="w-50">
-    <img src="/billeder/els.jpg" alt="" />
+  <div class="grid grid-cols-4 grid-rows-3">
+    <div class="text-center col-start-2 col-span-2">
+      <h1 class="text-center text-lime-300 pt-40">om mig</h1>
+    </div>
+
+    <div class="col-start-2 row-start-2 row-span-2 col-span-2">
+      <img src="/billeder/scan.jpg"/>
+    </div>
   </div>
 </Layout>
