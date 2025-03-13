@@ -1,17 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Elsebeth from "../components/Elsebeth.astro";
+import Header2 from "../components/Header2.astro";
 ---
 
 
 <Layout>
-  <div class="grid grid-cols-12 grid-rows-5">
-    <Elsebeth />
-    <div
-      class="col-start-1 row-start-4 col-span-2 row-span-2 border-1 border-white"
-    >
-      <p>INDÆST BILLEDE eller ligm</p>
-    </div>
+  
+  <div class="grid grid-cols-5 grid-rows-2 ">
+    <a class="col-start-4 row-start-2 text-white italic" href="/about">have a seat :)</a>
+    
+    <img class="grayscale contrast-200 col-start-3 row-start-2 h-80" src="/billeder/stol.png"/>
+  
   </div>
   <!-- <div class="h-[220rem] bg-purple-100 w-full"></div> -->
 </Layout>
