@@ -3,4 +3,6 @@
 @theme {
     --color-primary: oklch(0.785 0.115 274.713); /*indigo300*/
     --color-secondary: oklch(0.938 0.127 124.321); /*lime200*/
+
+    
 }

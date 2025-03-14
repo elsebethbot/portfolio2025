@@ -3,14 +3,23 @@ import Layout from "../layouts/Layout.astro";
 import Header2 from "../components/Header2.astro";
 ---
 
-
 <Layout>
-  
-  <div class="grid grid-cols-5 grid-rows-2 ">
-    <a class="col-start-4 row-start-2 text-white italic" href="/about">have a seat :)</a>
-    
-    <img class="grayscale contrast-200 col-start-3 row-start-2 h-80" src="/billeder/stol.png"/>
-  
+  <div class="grid grid-cols-5 grid-rows-3 font-serif">
+    <p class="col-start-3 row-start-1 text-center pt-40 italic text-indigo-200">.-*.._-* hello stranger *-_..*-.</p>
+    <p class="col-start-4 row-start-2 pl-22 pt-15 italic text-indigo-300">i feel like ....</p>
+    <p class="col-start-5 row-start-2 pt-40 italic text-indigo-400">we've met before ..... ?</p>
+    <p class="col-start-3 row-start-3 pt-4 italic text-indigo-300">anyways .... </p>
+    <a
+      class="col-start-3 row-start-3 text-center pt-15 text-indigo-300 italic"
+      href="/about">have a seat :)</a
+    >
+
+    <a href="/about"  class="col-start-3 row-start-2">
+      <img
+        class="grayscale contrast-200 backdrop-blur-3xl backdrop-brightness-50 blur-xs h-80"
+        src="/billeder/stol.png"
+      />
+    </a>
   </div>
   <!-- <div class="h-[220rem] bg-purple-100 w-full"></div> -->
 </Layout>
