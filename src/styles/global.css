@@ -1,8 +1,43 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&family=Gruppo&family=Tangerine:wght@400;700&display=swap');
 
 @theme {
     --color-primary: oklch(0.785 0.115 274.713); /*indigo300*/
     --color-secondary: oklch(0.938 0.127 124.321); /*lime200*/
+    --font-head: "Tangerine", cursive;
+    /* --font-head: "Special Elite"; */
 
     
 }
+
+.tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .astloch-regular {
+    font-family: "Astloch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .astloch-bold {
+    font-family: "Astloch", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .special-elite-regular {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  
