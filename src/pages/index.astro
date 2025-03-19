@@ -1,9 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Header2 from "../components/Header2.astro";
+import Header from "../components/Header.astro";
 ---
 
 <Layout>
+  <div class="top-0 right-4 hidden
+    md:fixed md:inline md:w-40  
+    lg:w-40 
+    xl:w-50">
+      <Header />
+    </div>
   <div>
     <h1 class="text-center blur-[1px] m-10 pb-2 text-5xl font-script bg-gradient-to-r from-slate-800 via-slate-400 to-slate-50 text-transparent bg-clip-text 
     xl:text-9xl xl:m-20 xl:pb-2 "
@@ -16,29 +23,29 @@ import Header2 from "../components/Header2.astro";
 
     <p class="col-start-1 row-start-1 col-span-2 pt-4 text-center text-slate-700
     lg:col-start-3 
-    xl:col-start-4 xl:pt-30 xl:text-right"
+    xl:col-start-4 xl:pt-3 xl:col-span-1"
     >i feel like ....</p>
 
     <p class="col-start-2 row-start-1 pt-10 text-slate-700
     lg:col-start-4 lg:row-start-2 lg:col-span-2 
-    xl:pl-4 "
+    xl:col-start-5 xl:row-start-1 xl:pt-20"
     >we've met before ..... ?</p>
     
     <p class="col-start-1 row-start-4 col-span-2 pt-4 text-center text-slate-700
     lg:col-start-2 lg:row-start-3 lg:pt-35 
-    xl:col-start-2 xl:row-start-2 xl:pt-30 xl:text-center "
+    xl:col-start-4 xl:row-start-2 xl:col-span-1 xl:pt-0 xl:text-left "
     >anyways .... </p>
     
     <a
       class="text-slate-700 col-start-1 row-start-4 col-span-2 pt-10 text-center 
       lg:col-start-2 lg:row-start-3 lg:pt-45 
-      xl:col-start-2 xl:row-start-2 xl:col-span-2 xl:pt-36 xl:text-center"
+      xl:col-start-2 xl:row-start-2 xl:col-span-2 xl:pt-40 xl:text-center"
       href="/about">have a seat</a
     >
     
     <a href="/about"  class="w-40 ml-16 row-start-2 row-span-2 col-span-2 
      lg:col-start-2 lg:row-start-2 lg:col-span-2 lg:row-span-2 
-     xl:col-start-2 xl:row-start-1 xl:m-15">
+     xl:col-start-2 xl:row-start-1 xl:m-5 xl:w-60">
       <img
         class="invert grayscale contrast-200 backdrop-blur-3xl backdrop-brightness-50 blur-xs"
         src="/billeder/stol.png"

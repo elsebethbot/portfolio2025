@@ -1,8 +1,15 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro"
 ---
 
 <Layout>
+    <div class="top-0 right-4 hidden
+    md:fixed md:inline md:w-40  
+    lg:w-40 
+    xl:w-50">
+      <Header />
+    </div>
     <div>
         <h1 class="text-6xl m-8 text-center font-script bg-gradient-to-r from-slate-700 via-indigo-100 to-slate-400 text-transparent bg-clip-text
         xl:text-9xl xl:m-20"

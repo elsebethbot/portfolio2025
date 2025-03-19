@@ -1,9 +1,16 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import Header2 from "../../components/Header2.astro";
+import Header from "../../components/Header.astro";
 ---
 
 <Layout>
+  <div class="top-0 right-4 hidden
+    md:fixed md:inline md:w-40  
+    lg:w-40 
+    xl:w-50">
+      <Header />
+    </div>
+
   <div>
     <div>
       <h1 class="text-7xl m-8 text-center font-script  bg-gradient-to-r from-indigo-200 via-slate-100 to-slate-800 text-transparent bg-clip-text
@@ -11,7 +18,9 @@ import Header2 from "../../components/Header2.astro";
       >Bitmap Roses</h1>
     </div>
   
-    <div class="grid lg:grid-cols-6 lg:grid-rows-10 lg:m-20 font-serif">
+    <div class="grid font-head
+    lg:grid-cols-6 lg:grid-rows-10 lg:m-20  
+    xl:text-2xl">
       <p class="lg:col-start-3 lg:row-start-4 lg:col-span-2 lg:m-4 text-center italic text-lime-300">the project is called 'roses'</p>
       <p class="lg:col-start-3 lg:row-start-7 lg:col-span-2 lg:m-4 text-center italic text-lime-300">it came to life in processing</p>
   
