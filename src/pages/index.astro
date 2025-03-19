@@ -5,18 +5,40 @@ import Header2 from "../components/Header2.astro";
 
 <Layout>
   <div>
-    <h1 class="text-center blur-[1px] xl:text-9xl xl:m-20 xl:pb-2  font-script bg-gradient-to-r from-slate-800 via-slate-400 to-slate-50 text-transparent bg-clip-text">Hello Stranger</h1>
+    <h1 class="text-center blur-[1px] m-10 pb-2 text-5xl font-script bg-gradient-to-r from-slate-800 via-slate-400 to-slate-50 text-transparent bg-clip-text 
+    xl:text-9xl xl:m-20 xl:pb-2 "
+    >Hello Stranger</h1>
   </div>
-  <div class="grid lg:grid-cols-4 lg:grid-rows-3 xl:grid-cols-6 xl:grid-rows-2 font-head">
-    <p class="lg:col-start-3 xl:col-start-4 xl:pt-30 xl:text-right  text-slate-700 ">i feel like ....</p>
-    <p class="lg:col-start-4 lg:row-start-2 lg:col-span-2 xl:pl-4 text-slate-700">we've met before ..... ?</p>
-    <p class="lg:col-start-2 lg:row-start-3 lg:pt-35 xl:col-start-2 xl:row-start-2 xl:pt-30 xl:text-center text-slate-700">anyways .... </p>
+
+  <div class="grid grid-cols-2 grid-rows-4 font-head text-slate-700 m-4
+  lg:grid-cols-4 lg:grid-rows-3 
+  xl:grid-cols-6 xl:grid-rows-2 ">
+
+    <p class="col-start-1 row-start-1 col-span-2 pt-4 text-center text-slate-700
+    lg:col-start-3 
+    xl:col-start-4 xl:pt-30 xl:text-right"
+    >i feel like ....</p>
+
+    <p class="col-start-2 row-start-1 pt-10 text-slate-700
+    lg:col-start-4 lg:row-start-2 lg:col-span-2 
+    xl:pl-4 "
+    >we've met before ..... ?</p>
+    
+    <p class="col-start-1 row-start-4 col-span-2 pt-4 text-center text-slate-700
+    lg:col-start-2 lg:row-start-3 lg:pt-35 
+    xl:col-start-2 xl:row-start-2 xl:pt-30 xl:text-center "
+    >anyways .... </p>
+    
     <a
-      class="lg:col-start-2 lg:row-start-3 lg:pt-45 xl:col-start-2 xl:row-start-2 xl:col-span-2 xl:pt-36 text-slate-700 xl:text-center"
+      class="text-slate-700 col-start-1 row-start-4 col-span-2 pt-10 text-center 
+      lg:col-start-2 lg:row-start-3 lg:pt-45 
+      xl:col-start-2 xl:row-start-2 xl:col-span-2 xl:pt-36 xl:text-center"
       href="/about">have a seat :)</a
     >
-
-    <a href="/about"  class="lg:col-start-2 lg:row-start-2 lg:col-span-2 lg:row-span-2 xl:col-start-2 xl:row-start-1 xl:m-15">
+    
+    <a href="/about"  class="w-40 ml-16 row-start-2 row-span-2 col-span-2 
+     lg:col-start-2 lg:row-start-2 lg:col-span-2 lg:row-span-2 
+     xl:col-start-2 xl:row-start-1 xl:m-15">
       <img
         class="invert grayscale contrast-200 backdrop-blur-3xl backdrop-brightness-50 blur-xs"
         src="/billeder/stol.png"
