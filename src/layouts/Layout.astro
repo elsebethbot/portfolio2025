@@ -1,6 +1,5 @@
 ---
 import "../styles/global.css";
-import Header from "../components/Header.astro";
 import Header2 from "../components/Header2.astro";
 ---
 
@@ -21,13 +20,16 @@ import Header2 from "../components/Header2.astro";
     md:fixed md:inline md:w-40 
     lg:top-42 lg:w-40 
     xl:w-10 xl:top-4">
-      <Header2 />
-    </div>
-    <div class=" lg:mr-50 lg:ml-50 xl:mr-60 xl:ml-60">
-      <slot />
-    </div>
-   
+    <Header2 />
+  </div>
+  
+  <div class=" lg:mr-50 lg:ml-50 xl:mr-60 xl:ml-60">
+    <slot />
+  </div>
+  
+  
   </body>
+  
 </html>
 
 <style>
@@ -36,7 +38,9 @@ import Header2 from "../components/Header2.astro";
     margin: 0;
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
+    background-image: radial-gradient(rgb(6, 5, 6),rgb(247, 247, 251),  rgb(255, 255, 255));
+    background-attachment: fixed;
+    /* background-color: #ffffff; */
     /* background-color: #c9becb;  */
     /* background-image: url(/billeder/lipsblur.png); 
     background-size: cover;  
