@@ -1,18 +1,19 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
+import Plate from "../components/Plate.astro";
 ---
 
 <Layout>
     <div class="hidden top-0 right-4 
     md:fixed md:inline md:w-40  
     lg:w-40 
-    xl:w-40">
+    xl:w-55">
       <Header />
     </div>
 
-    <div class="font-script text-center m-5 pb-2 text-7xl blur-[1px] bg-gradient-to-r from-slate-100 via-slate-800 to-slate-200 text-transparent bg-clip-text
-    xl:text-9xl xl:m-10">
+    <div class="font-script text-center m-5 pb-2 text-7xl blur-[1px] bg-gradient-to-r from-slate-400 via-slate-100 to-slate-800 text-transparent bg-clip-text
+    xl:text-9xl xl:m-20">
       <h>
         Appetizers
       </h>
@@ -20,18 +21,13 @@ import Header from "../components/Header.astro";
 
   <div class="grid grid-cols-2 grid-rows-4 m-4 
   xl:grid-cols-3 xl:grid-rows-3">
-    <a href="/cases/roser">
-      <img src="/billeder/plateRoser.png"></>
-    </a>
-    <img src="/billeder/plateOe.png"></>
-    <img src="/billeder/plateStilleben.png"></>
-    <img src="/billeder/plateVisuals.png"></>
-    <img src="/billeder/plateWiki.png"></>
-    <a href="/cases/zine">
-      <img src="/billeder/plateZine.png"></>
-    </a>
-    <img src="/billeder/plateJuke.png"></>
-    <img src="/billeder/plateDirty.png" class="grayscale contrast-140"></>
+    <Plate img="/billeder/roser/roserGul.png" link="/cases/roser"></Plate>
+    <Plate img="/billeder/oe.png" link="/#"></Plate>
+    <Plate img="/billeder/stilleben.png" link="/#"></Plate>
+    <Plate img="/billeder/visuals.jpg" link="/#"></Plate>
+    <Plate img="/billeder/wiki.png" link="/#"></Plate>
+    <Plate img="/billeder/zine.png" link="/#"></Plate>
+    <Plate img="/billeder/jukebox.jpg" link="/#"></Plate>
     <img src="/billeder/plateDirty.png" class="grayscale contrast-140"></>
   </div>
 </Layout>
