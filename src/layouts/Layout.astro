@@ -15,19 +15,14 @@ import Header2 from "../components/Header2.astro";
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Almendra+Display&family=Astloch:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <div class="top-0 left-4
-    md:fixed md:inline md:w-40 
-    lg:top-42 lg:w-40 
-    xl:w-10 xl:top-4">
-    <Header2 />
-  </div>
-  
-  <div class=" lg:mr-50 lg:ml-50 xl:mr-60 xl:ml-60">
+
+  <div class="mr-0 ml-0 
+  xl:mr-60 xl:ml-60">
     <slot />
   </div>
-  
-  
+
   </body>
   
 </html>

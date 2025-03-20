@@ -1,10 +1,22 @@
 ---
 import Layout from "../layouts/Layout.astro";
-
+import Header from "../components/Header.astro";
+import Header2 from "../components/Header2.astro";
 ---
 
 <Layout>
-  
+  <div class="hidden top-0 right-4 
+    md:fixed md:inline md:w-40  
+    lg:w-40 
+    xl:w-55">
+      <Header />
+    </div>
+    <div class="top-0 left-4
+    md:fixed md:inline md:w-40 
+    lg:top-42 lg:w-40 
+    xl:w-50 xl:top-4">
+    <Header2 />
+    </div>
   <div class="grid grid-cols-3 grid-rows-5 font-serif italic">  
     <!-- <div class="col-span-4">
       <h1 class="text-center pt-10  text-indigo-300">how to contact me u ask?</h1>

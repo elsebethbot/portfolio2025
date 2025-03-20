@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
+import Header2 from "../components/Header2.astro";
 import Plate from "../components/Plate.astro";
 ---
 
@@ -10,6 +11,12 @@ import Plate from "../components/Plate.astro";
     lg:w-40 
     xl:w-55">
       <Header />
+    </div>
+    <div class="top-0 left-4
+    md:fixed md:inline md:w-40 
+    lg:top-42 lg:w-40 
+    xl:w-50 xl:top-4">
+    <Header2 />
     </div>
 
     <div class="font-script text-center m-5 pb-2 text-7xl blur-[1px] bg-gradient-to-r from-slate-400 via-slate-100 to-slate-800 text-transparent bg-clip-text
@@ -26,7 +33,7 @@ import Plate from "../components/Plate.astro";
     <Plate img="/billeder/stilleben.png" link="/#"></Plate>
     <Plate img="/billeder/visuals.jpg" link="/#"></Plate>
     <Plate img="/billeder/wiki.png" link="/#"></Plate>
-    <Plate img="/billeder/zine.png" link="/#"></Plate>
+    <Plate img="/billeder/zine.png" link="/cases/zine"></Plate>
     <Plate img="/billeder/jukebox.jpg" link="/#"></Plate>
     <img src="/billeder/plateDirty2.png" class="grayscale contrast-140"></>
   </div>
